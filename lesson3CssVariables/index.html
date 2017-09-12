@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="holder">
+                   <h2>Update CSS Variables with <span class='h1'>JS</span></h2>
+        <div class="controllers">
+
+            <label for="padding">Spacing: </label>
+            <input type="range" name="spacing" data-sizing='px' value="">
+            
+            <label for="blur">Blur: </label>
+            <input type="range" name="blur" value="" data-sizing='px' value=0>
+
+            <label for="color">Color: </label>
+            <input type="color" name="baseColor" value="#ffc600">
+
+            <label for="backColor"><pre> Back color:</pre></label>
+            <input  type="color" name="backColor" value="#cc8999">
+
+
+        </div>
+       <div class='imageHolder'> <img src="back.jpg" alt=""></div>
+        </div>
+    </body>
+    <script>
+        // side effect
+        // handleInputs :: 
+        const handleInputs = input => () => {
+            const suffix = input.dataset.sizing || '';
+            document.documentElement.style.setProperty(`--${input.name}`, input.value + suffix);
+        };
+        const inputs = document.querySelectorAll('.controllers input');
+        inputs.forEach(input => input.addEventListener('change', handleInputs(input)));
+        inputs.forEach(input => input.addEventListener('mousemove', handleInputs(input)));
+    </script>
+</html>

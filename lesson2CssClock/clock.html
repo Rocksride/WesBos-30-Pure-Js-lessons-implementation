@@ -30,7 +30,7 @@
             const hoursDegrees = (hours / 12) * 360 + 90;
             secondsHand.style.transform =  `rotate(${secondsDegrees}deg)`;
             minutesHand.style.transform =  `rotate(${minutesDegrees}deg)`;
-            hoursHand.style.transform =  `rotate(${hoursDegrees}deg)`;
+            hoursHand.style.transform   =  `rotate(${hoursDegrees}deg)`;
         };
         setInterval(clockHandler, 1000);
     </script>

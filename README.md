@@ -4,3 +4,4 @@
 ## Lesson 2: "Css clock"
 ![css clock](https://github.com/Rocksride/WesBos-30-Pure-Js-lessons-implementation/blob/master/lessonsScreens/lesson2.PNG)
 ## Lesson 3: "Css variables"
+![css clock](https://github.com/Rocksride/WesBos-30-Pure-Js-lessons-implementation/blob/master/lessonsScreens/lesson3.PNG)
