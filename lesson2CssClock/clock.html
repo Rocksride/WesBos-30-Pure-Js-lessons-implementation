@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="clock">
+            <div class="clockFace">
+                <div id="seconds" class="clockItem"></div>
+                <div id="minutes" class="clockItem"></div>
+                <div id="hours" class="clockItem"></div>
+                <div id="centerDot"></div>
+           </div>
+        </div>
+    </body>
+    <script>
+        const minutesHand = document.querySelector('#minutes');
+        const secondsHand = document.querySelector('#seconds');
+        const hoursHand = document.querySelector('#hours');
+        const clockHandler = () =>{
+            const time = new Date();
+            const seconds = time.getSeconds();
+            const secondsDegrees = (seconds / 60) * 360 + 90;
+            const minutes = time.getMinutes();
+            const minutesDegrees = (minutes / 60) * 360 + 90;
+            const hours = time.getHours();
+            const hoursDegrees = (hours / 12) * 360 + 90;
+            secondsHand.style.transform =  `rotate(${secondsDegrees}deg)`;
+            minutesHand.style.transform =  `rotate(${minutesDegrees}deg)`;
+            hoursHand.style.transform =  `rotate(${hoursDegrees}deg)`;
+        };
+        setInterval(clockHandler, 1000);
+    </script>
+</html>
