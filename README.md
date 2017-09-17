@@ -2,21 +2,34 @@
 
 ## Lesson 1: "Drum Kit"
 ![drum kit](https://github.com/Rocksride/WesBos-30-Pure-Js-lessons-implementation/blob/master/lessonsScreens/lesson1.PNG)
+
 ## Lesson 2: "Css Clock"
 ![css clock](https://github.com/Rocksride/WesBos-30-Pure-Js-lessons-implementation/blob/master/lessonsScreens/lesson2.PNG)
+
 ## Lesson 3: "Css Variables"
 ![css clock](https://github.com/Rocksride/WesBos-30-Pure-Js-lessons-implementation/blob/master/lessonsScreens/lesson3.PNG)
+
 ## Lesson 4: "Array Cardio Day 1"
+### practised higher-order functions part 1
+
 ## Lesson 5: "Flex Panel Gallery"
 ![css clock](https://github.com/Rocksride/WesBos-30-Pure-Js-lessons-implementation/blob/master/lessonsScreens/lesson5.PNG)
+
 ## Lesson 6: "Type Ahead (with 'Transducers')"
 ![type ahead](https://github.com/Rocksride/WesBos-30-Pure-Js-lessons-implementation/blob/master/lessonsScreens/lesson6.PNG)
 
 ## Lesson 7: "Array Cardio Day 2"
+### practised higher-order functions part 2
+
 ## Lesson 8: "Fun wIth HTML5 Canvas"
+![type ahead](https://github.com/Rocksride/WesBos-30-Pure-Js-lessons-implementation/blob/master/lessonsScreens/lesson8.PNG)
+
 ## Lesson 9: "Dev Tools Domination"
+
 ## Lesson 10: "Hold Shift And Check Checkboxes"
+
 ## Lesson 11: "Custom Video Player"
+
 ## Lesson 12: "Key Sequence Detection"
 ## Lesson 13: "Slide in The Scroll"
 ## Lesson 14: "JS Deep vs Shallow Copy"
