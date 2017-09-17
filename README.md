@@ -9,7 +9,9 @@
 ## Lesson 4: "Array Cardio Day 1"
 ## Lesson 5: "Flex Panel Gallery"
 ![css clock](https://github.com/Rocksride/WesBos-30-Pure-Js-lessons-implementation/blob/master/lessonsScreens/lesson5.PNG)
-## Lesson 6: "Type Ahead"
+## Lesson 6: "Type Ahead (with 'Transducers')"
+![type ahead](https://github.com/Rocksride/WesBos-30-Pure-Js-lessons-implementation/blob/master/lessonsScreens/lesson6.PNG)
+
 ## Lesson 7: "Array Cardio Day 2"
 ## Lesson 8: "Fun wIth HTML5 Canvas"
 ## Lesson 9: "Dev Tools Domination"
