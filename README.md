@@ -10,7 +10,7 @@
 ![css clock](https://github.com/Rocksride/WesBos-30-Pure-Js-lessons-implementation/blob/master/lessonsScreens/lesson3.PNG)
 
 ## Lesson 4: "Array Cardio Day 1"
-### practised higher-order functions part 1
+#### practised higher-order functions part 1
 
 ## Lesson 5: "Flex Panel Gallery"
 ![css clock](https://github.com/Rocksride/WesBos-30-Pure-Js-lessons-implementation/blob/master/lessonsScreens/lesson5.PNG)
@@ -19,14 +19,16 @@
 ![type ahead](https://github.com/Rocksride/WesBos-30-Pure-Js-lessons-implementation/blob/master/lessonsScreens/lesson6.PNG)
 
 ## Lesson 7: "Array Cardio Day 2"
-### practised higher-order functions part 2
+#### practised higher-order functions part 2
 
 ## Lesson 8: "Fun wIth HTML5 Canvas"
 ![type ahead](https://github.com/Rocksride/WesBos-30-Pure-Js-lessons-implementation/blob/master/lessonsScreens/lesson8.PNG)
 
 ## Lesson 9: "Dev Tools Domination"
-
+#### console: .info, .warn, .table, .assert, .time, .timeEnd, .group, .groupEnd. 
+#### Using css in console.log('as facebook does')
 ## Lesson 10: "Hold Shift And Check Checkboxes"
+![type ahead](https://github.com/Rocksride/WesBos-30-Pure-Js-lessons-implementation/blob/master/lessonsScreens/lesson10.PNG)
 
 ## Lesson 11: "Custom Video Player"
 
