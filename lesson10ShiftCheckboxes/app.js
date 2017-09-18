@@ -2,7 +2,7 @@ const checkboxes = document.querySelectorAll(`input[type="checkbox"]`);
 let lastClickedCheckbox
 function handleCheck(e) {
     let inBetween = false;
-    if (e.shiftKey){
+    if (e.shiftKey && this.checked){
         checkboxes.forEach(checkbox => {
             if (checkbox === this || checkbox === lastClickedCheckbox){
                 inBetween = ! inBetween;

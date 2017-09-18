@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+     <main>
+        <div class="player">
+            <video  class="player__video viewer" src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164"></video>
+
+            <div class="player__controls">
+                <div class="progress">
+                </div>
+                <input type="range" name="playbackRate" min="0" max="1" step="0.05" value="">
+                <input type="range" name="playbackRate" min="0" max="1" step="0.05" value="">
+                <button data-skip='-10' class='player__button'> << 10s</button>
+                <button data-skip='25' class='player__button'>25s >></button>
+
+            </div>
+        </div>
+     </main>
+    </audio>
+    </body>
+    <script src='app.js'>
+        
+    </script>
+</html>
